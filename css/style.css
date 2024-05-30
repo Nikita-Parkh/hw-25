@@ -1,0 +1,28 @@
+.container{
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+}
+.box1{
+    background-color: lightcoral;
+    z-index: 1;
+}
+.box2{
+    background-color: cornflowerblue;
+    z-index: 2;
+    top: 20%;
+    left: 50%;
+}
+.box3{
+    background-color:lime;
+    z-index: 1;
+    top: 40%;
+    left: 100%;
+}
